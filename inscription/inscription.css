@@ -12,4 +12,32 @@
     margin-top: 50px;
     margin-bottom: 25px;
     margin-left: 25px;
+    color: yellow;
+    background: rgba(128, 0, 128,0.9);
+    border-radius: 20px;
+
+}
+
+.forminscr h1{
+    font-size: 50px !important;
+}
+
+.forminscription{
+    text-align: center;
+    font-size: 40px;
+}
+
+.bodyinscription{
+    background-image: url("../medias/fondInscription.jpg");
+}
+
+.infor{
+    margin-left: 30%;
+    background: rgba(255, 255, 204,0.9);
+    color: rgb(153, 0, 153);
+    border-radius: 20px;
+}
+
+.forinput{
+    margin-top : 10px;
 }
