@@ -1,8 +1,8 @@
 <?php
 
-namespace Accueil;
+namespace App;
 
 $pageTitle = 'Accueil Bomberman';
 
 //require genere fatal error si le fichier n'existe pas
-require('accueil-template.php');
+include($dir.'accueil-template.php');

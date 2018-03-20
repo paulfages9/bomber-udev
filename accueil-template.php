@@ -6,10 +6,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta charset="utf-8">
-        <link rel="stylesheet" media="screen" type="text/css" href="accueil.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="pages/accueil.css" />
         <title><?= $pageTitle ?></title>
     </head>
     <body>
-        <button type="button" class="btn btn-lg">START</button>
+        <button type="button" class="btn btn-lg" onclick="document.location='index.php?page=test-page2'">START</button>
     </body>
 </html>
