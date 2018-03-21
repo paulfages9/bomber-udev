@@ -34,3 +34,5 @@ if (!is_null($pseudo)){
     $pseu = comparePseudo($pseudo);
 }
 
+var_dump($password);
+
